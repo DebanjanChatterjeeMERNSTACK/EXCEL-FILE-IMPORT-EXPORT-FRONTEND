@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.csv{
+    width: 90%;
+    margin: 0 auto;
+}
+.csvflex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 90px;
+    margin: 0 auto;
+}
+.csvsc{
+    overflow-x: scroll;
+}
