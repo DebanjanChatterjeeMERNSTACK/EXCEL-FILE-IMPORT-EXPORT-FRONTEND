@@ -18,7 +18,7 @@ function App() {
 
     fetch("http://localhost:8000/exportexcel")
       .then(res => res.blob())
-       .then(blob => FileSaver(blob,"salarysheet"))
+       .then(blob => FileSaver(blob,"salarysheet.xlsx"))
   }
 
 
